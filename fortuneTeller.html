@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/fortuneTeller.css">
+    <script src="fortuneTeller.js"></script>
+</head>
+
+<body>
+    <p id="fortune"></p>
+
+    <form name="donation form" id="donate_frm" action="#">
+        Enter your first name: <input type="text" id="firstName" placeholder="First Name" />
+        <p></p>
+        Enter your last name:<input type="text" name="last_nm" id="lastName" placeholder="Last Name" />
+        <p></p>
+        Enter your age:<input type="text" name="your_age" id="age" placeholder="36" />
+        <p></p>
+        Enter your birth month as a number: <input type="text" name=birth_month" id="birthMonth" placeholder="6" />
+        <p></p>
+        Enter your favorite ROYGBIV color:<input type="text" id="color" placeholder="R" />
+        <p></p>
+        Enter the number of siblings do you have:<input type="text" id="siblings" placeholder="2" />
+        <p></p>
+        <input type="button" name="onclick" value="What's my fortune?" onclick="readFortune();" />
+    </form>
+
+    <p id="demo"></p>
+
+</body>
+
+</html>
